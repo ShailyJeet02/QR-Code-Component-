@@ -1,0 +1,42 @@
+body{
+    background-color: #D5E1EF;
+    font-family: '';
+    text-align: center;
+
+}
+#container{
+    position: absolute;
+    margin: auto;
+    padding: 1rem;
+    padding-bottom: 3rem;
+    inset: 0;
+    background-color: white;
+    height: 470px;
+   max-width: 302px;
+   border-radius: 16px;
+   box-shadow: 0px 10px 8px 10px rgb(200, 200, 200,0.5);
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    
+
+}
+img{
+    width: 100%;
+    border-radius: 10px;
+}
+h2{
+     color: hsl(218, 44%, 22%);
+     font-size: 25px;
+}
+p{
+    color: hsl(220, 15%, 55%);
+    font-size: 15px;
+}
+
+/* @media only screen and (max-width: 368px) {
+    For mobile phones:
+    [class*="col-"] {
+      width: 100%;
+    }
+  } */
